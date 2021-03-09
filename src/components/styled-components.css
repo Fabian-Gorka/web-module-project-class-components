@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: darkcyan;
+}
+/*app style */
+.appContainer{
+    justify-content: center;
+    background-color: white;
+    width:130%;
+    border-radius: 15px;
+
+}
+h1{
+    text-align: center ;
+    font-family: 'Oi', cursive;
+    font-weight: 200;
+    padding :2%;
+    width: 100%;
+}
+/* Todo form Style */
+.formBody{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.todoForm{
+text-align: center;
+}
+.addBtn{
+    margin-left: 1%;
+}
+/* List Styling */
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.items{
+    list-style-type: none;
+}
+.clearBtn{
+    width:65%;
+
+}
+/* todo.js style */
+.listItems{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.listItems input{
+    margin-top:13%;
+    margin-left:0%;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(231, 231, 231);
+    
+}
+.listItems p{
+ background-color: rgb(231, 231, 231);
+ padding-top: 5%;
+ padding-bottom: 5%;
+font-size: 20px;
+
+
+}
